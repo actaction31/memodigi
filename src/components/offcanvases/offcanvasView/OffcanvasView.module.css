@@ -1,0 +1,42 @@
+.wrapper {
+    background: #091A1D;
+    width: 229px !important;
+    transition: all 0.3s ease-out;
+}
+.offcanvasBody {
+    padding: 32px;
+}
+
+.offcanvasBody > ul {
+    margin: 0;
+    padding: 0;
+}
+.offcanvasBody > ul > li {
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: 40px auto;
+    align-items: center;
+}
+.offcanvasBody > ul > li:first-child {
+    margin-top: 0;
+}
+.offcanvasBody > ul > li span {
+    color: #FFFFFF;
+}
+.offcanvasBody > ul > li > span:last-child {
+    font-weight: 400;
+    font-size: 12px;
+}
+.delim {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.groupTitle {
+    display: block !important;
+    padding-top: 20px;
+}
+.custom {
+    display: block !important;
+    padding-top: 20px;
+}

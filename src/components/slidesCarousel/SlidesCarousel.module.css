@@ -1,0 +1,18 @@
+.wrapper {
+    overflow: hidden;
+}
+.wrapper :global(.use-spring-carousel-main-wrapper) {
+    z-index: 10;
+}
+.slideWrapper {
+    width: 300px;
+    height: 80vh;
+    background-color: #743B8B;
+}
+
+@media (orientation: landscape) {
+    .slideWrapper {
+        width: 300px;
+        height: 300px;
+    }
+}

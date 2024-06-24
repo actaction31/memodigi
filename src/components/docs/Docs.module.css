@@ -1,0 +1,35 @@
+.contentWrapper {
+    padding: 5vh 8vw;
+    background: linear-gradient(133.3deg, #743B8B 11.35%, #C77733 171.96%);
+    isolation: isolate;
+}
+.contentWrapper * {
+    color: rgba(79, 79, 79, 1);
+}
+.content {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+.logo {
+    position: absolute;
+    background-image: url('/assets/landing/logo-v2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    width: 208px;
+    height: 59px;
+    top: 2vw;
+    left: 2vw;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 5px solid #FFFFFF;
+}
+@media (orientation: portrait) {
+    .logo {
+        top: 30px;
+        left: 30px;
+    }
+}
+

@@ -1,0 +1,54 @@
+.wrapper {
+    background-color: rgba(217, 217, 217, 0.1);
+    height: 60px;
+}
+.limitsLineBlock {
+    padding: 10px 15vw;
+}
+.limitLine {
+    height: 5px;
+    background: rgba(0, 0, 0, 0.3);
+    background-clip: content-box;
+    position: relative;
+    border-radius: 20px;
+}
+.limitLine::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: var(--limit-progress-percent);
+    background: linear-gradient(90deg, #743B8B -6.28%, #C77733 109.2%);
+    z-index: -1;
+    transition: width 0.5s ease;
+}
+.buttons {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100px auto 100px;
+    align-items: center;
+}
+.buttons > div:first-child {
+    justify-content: flex-start;
+    padding-left: 7vw;
+}
+.buttons > div:last-child {
+    justify-content: flex-end;
+    padding-right: 7vw;
+}
+.buttons > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button {
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.limitText {
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+}

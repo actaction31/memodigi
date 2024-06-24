@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import "datepicker.module.css";
+@import "sliderImage.css";
+
+:root {
+  --main-bg: #262626 !important;
+  --featured-img: linear-gradient(180deg,#fff,#262626);
+}
+
+@font-face {
+  font-family: 'strawfordregular';
+  src: url('/fonts/strawford-regular-webfont.eot');
+  src: url('/fonts/strawford-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/strawford-regular-webfont.woff2') format('woff2'),
+  url('/fonts/strawford-regular-webfont.woff') format('woff'),
+  url('/fonts/strawford-regular-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'strawfordregular_italic';
+  src: url('/fonts/strawford-regularitalic-webfont.eot');
+  src: url('/fonts/strawford-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/strawford-regularitalic-webfont.woff2') format('woff2'),
+  url('/fonts/strawford-regularitalic-webfont.woff') format('woff'),
+  url('/fonts/strawford-regularitalic-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+/*body.content-item {*/
+/*  background-color: #FFFFFF;*/
+/*}*/
+
+body.edit-content,
+body.empty-content-page {
+  background: var(--main-bg);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.image-gallery-content.fullscreen, .image-gallery.fullscreen-modal {
+  background: var(--main-bg);
+}
+
+.image-gallery-icon:focus, button:focus {
+  outline: 0;
+}
+
+.whiteButton {
+  width: 288px;
+  height: 66px;
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 45px;
+
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  -webkit-box-shadow: 1px 3px 15px 0px rgba(0,0,0,0.21);
+  -moz-box-shadow: 1px 3px 15px 0px rgba(0,0,0,0.21);
+  box-shadow: 1px 3px 15px 0px rgba(0,0,0,0.21);
+}
+
+.pinkButton {
+  background: linear-gradient(133.3deg, #743B8B 11.35%, #C77733 171.96%);
+  border: 11px solid rgba(255, 255, 255, 0.06);
+  border-radius: 70px;
+  padding: 17px 32px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #FFFFFF;
+  background-clip: padding-box;
+}
+.pinkButton:before {
+
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+

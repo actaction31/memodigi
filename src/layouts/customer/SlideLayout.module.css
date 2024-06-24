@@ -1,0 +1,177 @@
+.wrapper {
+    color: #FFFFFF;
+    /*height: 100vh;*/
+    /*width: 100vw;*/
+}
+.wrapper * {
+    z-index: 10002;
+}
+.rotated {
+    /*transform: rotate(90deg);*/
+}
+.detailsLogo {
+    background-image: url('/icons/details-icon.svg');
+    width: 26px;
+    height: 18px;
+    position: fixed;
+    right: 2vh;
+    top: 2vh;
+}
+.titleInfo {
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100vw;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(58,58,58);
+    background: linear-gradient(180deg, rgba(58,58,58,1) 0%, rgba(0,0,0,0) 50%, rgba(58,58,58,1) 100%);
+    z-index: 10001 !important;
+}
+.date {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 45px;
+}
+.location {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+}
+.time {
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 55px;
+}
+.icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.icons ul {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+.icons ul li span {
+    width: 66px;
+    height: 66px;
+    display: block;
+    filter: drop-shadow(1px 2px 3px rgb(0 0 0 / 0.4));
+}
+.rotateIcon {
+    background-image: url("/icons/rotate-icon.svg");
+    background-repeat: no-repeat;
+}
+.locationIcon {
+    background-image: url("/icons/location-icon.svg");
+    background-repeat: no-repeat;
+}
+.weatherIcon {
+    background-image: url("/icons/weather-icon.svg");
+    background-repeat: no-repeat;
+}
+.infoIcon {
+    background-image: url("/icons/info-icon.svg");
+    background-repeat: no-repeat;
+}
+.tapIconBlockHide {
+    opacity: 0 !important;
+}
+.tapIconBlock {
+    position: fixed;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    bottom: 2vh;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.55;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+.tapIcon {
+    background-image: url("/icons/finger-icon.svg");
+    background-repeat: no-repeat;
+    width: 27px;
+    height: 41px;
+    display: block;
+}
+.tapIcon:focus,
+.tapIcon:hover {
+    opacity: 1;
+}
+.tapIconText {
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.fullAlbum {
+    position: fixed;
+    bottom: 5vh;
+    width: 100vw;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100003 !important;
+}
+.fullAlbumButton {
+    font-weight: 400;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+    border-radius: 45px;
+    width: 80%;
+    height: 66px;
+}
+.topMenuIconMain {
+    width: 55px;
+    height: 35px;
+    position: fixed;
+    top: 1vh;
+    right: 1vh;
+    z-index: 100000;
+}
+.topMenuIcons {
+    position: fixed;
+    top: 50px;
+    right: 18px;
+}
+.topMenuIcons ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.topMenuIcons li {
+    padding: 0;
+    margin: 0;
+}
+.topMenuIcons li img {
+    filter: invert(97%) sepia(2%) saturate(0%) hue-rotate(186deg) brightness(110%) contrast(100%);
+    width: 35px;
+    height: 32px;
+}

@@ -1,0 +1,10 @@
+.audio_play_icon {
+    position: absolute;
+    visibility: visible;
+    transition: 0.3s;
+    font-size: 50px !important;
+    color: white;
+    cursor: pointer;
+    bottom: 10px;
+    right: 10px;
+  }

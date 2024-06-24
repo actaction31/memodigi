@@ -1,0 +1,28 @@
+.container {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  min-height: 100vh;
+}
+
+.main img {
+  width: 100%;
+}
+
+.imgDesktop {
+  display: none;
+}
+.imgMobile {
+  display: block;
+}
+
+@media (orientation: landscape) {
+  .imgDesktop {
+    display: block;
+  }
+  .imgMobile {
+    display: none;
+  }
+}

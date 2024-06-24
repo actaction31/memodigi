@@ -1,0 +1,37 @@
+.info {
+    background-color: #262626;
+    background-image: radial-gradient(50% 50% at top center,rgba(0,0,0,.66),#262626),var(--featured-img);
+    padding: 5vw;
+}
+.infoTitle {
+    font-family: MD Primer Bold,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
+    font-style: normal;
+    font-size: clamp(1rem, 1rem + 0.8vw, 2rem);
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 0 2px 2px rgb(0 0 0 / 50%);
+    margin-bottom: 2vh;
+}
+.placeholder {
+    background-color: #7c7c7c;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+}
+.contentItemData {
+    background-color: #7c7c7c;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    color: white;
+    border-radius: 5px;
+    padding: 2vh 5vw 2vh 5vw;
+}
+.formRowLabel {
+    margin-bottom: 0.5vh;
+}

@@ -1,0 +1,119 @@
+.wrapper {
+    min-height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wrapperOpacity {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(360deg, rgba(12, 44, 50, 0.6) 10.64%, rgba(9, 26, 29, 0) 77.93%);
+    mix-blend-mode: multiply;
+}
+
+.middleText {
+    position: fixed;
+    width: 100vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 35px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.bottomBlock {
+    position: fixed;
+    bottom: 5vh;
+    width: 100vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.welcomeTextBlock {
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    justify-content: center;
+}
+.welcomeTextBlock span {
+    line-height: 1;
+}
+.createButton {
+    display: inline-flex;
+    gap: 10px;
+    align-items: center;
+}
+.createButton span {
+    display: flex;
+}
+.createButton span img {
+    height: 20px;
+}
+.welcome {
+    font-weight: 400;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+.cityName {
+    font-weight: 400;
+    font-size: 12vw;
+    color: #FFFFFF;
+}
+.topText {
+    position: absolute;
+    top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100vw;
+}
+.logo {
+
+}
+.logo img {
+    width: 87px;
+}
+.slogan {
+    font-weight: 275;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.actions {
+    position: absolute;
+    top: 2vh;
+    right: 2vh;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.actions span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (orientation: landscape) {
+    .wrapper  {
+        background-size: inherit;
+    }
+    .slogan {
+        text-shadow: 1px 1px 2px rgb(255 255 255 / 60%);
+        font-weight: 400;
+    }
+}

@@ -1,0 +1,66 @@
+{
+  "new_account_welcome_message": "Willkommen nach",
+  "create_your_album": "Erstellen Sie Ihr Album",
+  "share_your_greatest_memories": "Teilen Sie Ihre schönsten Erinnerungen!",
+  "account_activation": {
+    "title_thank_you": "Danke!",
+    "title_nice_to_meet_you": "Schön dich kennenzulernen!",
+    "require_activation_message": "<0>Ihr Konto muss aktiviert werden.</0><1></1>Sie können vorsichtig den Lizenzschlüssel verwenden, der auf Ihrem schönen Souvenir zu finden ist.",
+    "password_was_set": "Sie können sich jetzt über Ihr Konto freuen, mühelos Ihre wertvollen Erinnerungen speichern und durchsuchen, wann immer Sie möchten.",
+    "set_password_message": "Sie haben Ihr Konto erfolgreich aktiviert. Bitte entwerfen und notieren Sie sich ein Passwort, mit dem Sie Ihre wertvollen Erinnerungen hinzufügen können.<1></1> Wenn Sie möchten, <0>können Sie diesen Schritt überspringen und verwenden Sie Ihren Lizenzschlüssel</0>, der als Standardkennwort für Ihr Konto festgelegt ist.",
+    "specify_your_password": "Bitte geben Sie Ihr Passwort an",
+    "provide_license_key": "Bitte geben Sie den Lizenzschlüssel an",
+    "buttons": {
+      "continue": "Anständig initiieren",
+      "set_my_password": "Mein Passwort festlegen",
+      "skip": "Überspringen",
+      "submit": "Einreichen"
+    },
+    "errors": {
+      "empty_license_key": "Der Lizenzschlüssel darf nicht leer sein. Könnten Sie ihn bitte noch einmal überprüfen und es erneut versuchen?",
+      "not_valid_license_key": "Es scheint, dass der Lizenzschlüssel nicht gültig ist. Würden Sie ihn bitte überprüfen und es erneut versuchen?",
+      "empty_password": "Das Passwort darf nicht leer sein. Könnten Sie es bitte noch einmal überprüfen und es erneut versuchen?",
+      "something_went_wrong": "Etwas scheint schief gelaufen zu sein, bitte versuchen Sie es noch einmal."
+    }
+  },
+  "account_details_form": {
+    "main_title": "Ihre Reise",
+    "main_sub_title": "Diese Informationen werden auf Ihrem Albumcover angezeigt",
+    "trip_name_label": "Reise Name",
+    "short_description_label": "Kurze Beschreibung",
+    "next_button": "Weiter",
+    "back_button": "Zurück",
+    "skip_button": "Überspringen",
+    "additional_title": "Zusätzlich",
+    "additional_sub_title": "Sie können diesen Schritt überspringen und später Details hinzufügen",
+    "additional_dates_label": "Reisedaten",
+    "additional_description_label": "Beschreibung"
+  },
+  "account_pre_upload_screen": {
+    "main_title": "Fügen Sie Ihre Erinnerungen hinzu",
+    "main_sub_title": "Bitte wählen Sie die Fotos oder Videos aus, die Sie Ihrem Album hinzufügen möchten",
+    "next_button": "Weiter",
+    "back_button": "Zurück",
+    "skip_button": "Überspringen",
+    "options": {
+      "direct_upload_title": "Fotos/Videos hochladen",
+      "instagram_upload_title": "Instagram"
+    }
+  },
+  "auth_screen": {
+    "main_title": "Bitte autorisieren Sie sich freundlicherweise",
+    "main_sub_title": "Hinweis: Wenn Sie Ihr Passwort während des Aktivierungsvorgangs nicht geändert haben, können Sie Ihren Lizenzschlüssel verwenden",
+    "form": {
+      "password_field_label": "Ihr Passwort",
+      "password_field_placeholder": "Bitte angeben..."
+    },
+    "buttons": {
+      "back": "Zurück zur Ansicht",
+      "sing_in": "Anmelden"
+    },
+    "errors": {
+      "empty_password": "Das Passwort darf nicht leer sein. Bitte geben Sie Ihr Passwort an",
+      "incorrect_password": "Falsches Passwort. Bitte versuchen Sie es erneut"
+    }
+  }
+}

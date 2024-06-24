@@ -1,0 +1,40 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+.swiper-v {
+  border-radius: 4px;
+}
+.swiper-wrapper {
+  align-items: center;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  width: calc(1.2 * 80vh);
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lazy-load-image-background {
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.vertical-slide .swiper-slide {
+  width: 100%;
+}
+
+.swiper-horizontal{
+  height: 75vh;
+}
+
+
+.MuiPaper-root{
+  width: 100%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), linear-gradient(150deg, #025C66 -0.21%, #784C52 102.16%);
+}
+

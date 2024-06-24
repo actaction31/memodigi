@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  app:
+    image: ltstm-docker-dev
+    build:
+      context: ../../
+      dockerfile: docker/dev/Dockerfile
+    env_file:
+      - ../../.env
+    ports:
+      - "3030:3030"
+    container_name: ltstm_frontend_dev
+    networks:
+      - ltstm-api_backend-network
+
+networks:
+  ltstm-api_backend-network:
+    external: true

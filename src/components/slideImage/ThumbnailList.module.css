@@ -1,0 +1,12 @@
+.thumbnail_layout{
+    padding: 20px;
+  }
+  .close_button_layout{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .close_button{
+    color: white;
+    font-size: 30px!important;
+  }

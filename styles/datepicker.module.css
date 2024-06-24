@@ -1,0 +1,14 @@
+.react-datepicker__input-container {
+    background: linear-gradient(to right, #c7782d, #76388d);
+    padding: 2px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+.react-datepicker__input-container input {
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    border: 0;
+}

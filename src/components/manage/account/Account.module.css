@@ -1,0 +1,40 @@
+.wrapper {
+    padding: 1vh 5vw;
+    display: grid;
+    grid-template-rows: 150px auto;
+}
+.viewLink {
+    background-color: white;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+.linkButton {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.pipeline {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vh;
+    max-height: 70px;
+}
+
+@media (orientation: landscape) {
+    .wrapper {
+        grid-auto-rows: unset;
+        grid-template-rows: unset;
+        grid-template-columns: 100px auto;
+    }
+    .pipeline {
+        max-height: unset;
+        justify-content: flex-start;
+        margin-bottom: unset;
+    }
+}

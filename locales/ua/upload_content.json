@@ -1,0 +1,11 @@
+{
+  "upload_options": {
+    "direct_upload": "Завантаження",
+    "instagram_upload": "Instagram"
+  },
+  "limit_buttons": {
+    "cancel": "Скасувати",
+    "done": "Готово"
+  },
+  "main_title": "Додати фото / відео"
+}

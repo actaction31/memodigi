@@ -1,0 +1,52 @@
+.albumLayout {
+  display: flex;
+  flex-direction: row !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+
+}
+.wrapper::after {
+    content: ' ';
+    position: absolute;
+    top: calc(50% - 82px);
+    width: 100vw;
+    height: 164px;
+    background-size: cover;
+    background-image: url('/assets/timeline.svg');
+    background-position: center;
+    z-index: 0;
+}
+.paddingWrapper {
+    padding: 2vh 5vw;
+}
+.albumTitleWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    text-align: start;
+    padding-left: 0.5rem;
+}
+.albumTitle {
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.albumDates {
+    font-weight: 275;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+@media (orientation: landscape) {
+    .albumTitleWrapper {
+        flex-direction: row;
+        gap: 19px;
+        align-items: center;
+    }
+    .paddingWrapper {
+        padding: 3.5vh 2vw;
+    }
+}

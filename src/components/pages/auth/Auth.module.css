@@ -1,0 +1,11 @@
+.wrapper {
+    padding: 2vh 5vw;
+    display: grid;
+    grid-template-rows: 30px auto;
+}
+
+@media (orientation: landscape) {
+    .wrapper {
+        padding: 4vh 5vw;
+    }
+}

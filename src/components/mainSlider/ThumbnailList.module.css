@@ -1,0 +1,16 @@
+.thumbnailLayout {
+    padding: 20px;
+}
+.thumbnailLayout :global(.MuiPaper-root) {
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), linear-gradient(150deg, #025C66 -0.21%, #784C52 102.16%);
+}
+.closeButtonLayout {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.closeButton {
+    color: white;
+    font-size: 30px!important;
+}

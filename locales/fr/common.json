@@ -1,0 +1,66 @@
+{
+  "new_account_welcome_message": "bienvenue à",
+  "create_your_album": "Créez votre album",
+  "share_your_greatest_memories": "Partagez vos plus beaux souvenirs !",
+  "account_activation": {
+    "title_thank_you": "Merci !",
+    "title_nice_to_meet_you": "Ravi de vous rencontrer !",
+    "require_activation_message": "<0>Votre compte nécessite une activation.</0><1></1>Vous pouvez utiliser avec douceur la clé de licence, que vous trouverez sur votre charmant souvenir.",
+    "password_was_set": "Vous pouvez maintenant prendre plaisir à utiliser votre compte, sauvegarder et consulter vos précieux souvenirs à tout moment.",
+    "set_password_message": "Vous avez activé votre compte avec succès. Veuillez, s'il vous plaît, imaginer et noter un mot de passe que vous pourrez utiliser pour ajouter vos précieux souvenirs.<1></1> Si vous préférez, <0>vous pouvez ignorer cette étape et utiliser votre clé de licence</0>, qui est définie comme mot de passe par défaut pour votre compte.",
+    "specify_your_password": "Veuillez indiquer votre mot de passe",
+    "provide_license_key": "Veuillez fournir la clé de licence",
+    "buttons": {
+      "continue": "Commencer avec grâce",
+      "set_my_password": "Définir mon mot de passe",
+      "skip": "Passer",
+      "submit": "Soumettre"
+    },
+    "errors": {
+      "empty_license_key": "La clé de licence ne peut pas être vide. Pourriez-vous la vérifier à nouveau et réessayer, s'il vous plaît?",
+      "not_valid_license_key": "Il semble que la clé de licence ne soit pas valide. Pourriez-vous la vérifier et réessayer, s'il vous plaît?",
+      "empty_password": "Le mot de passe ne peut pas être vide. Pourriez-vous le vérifier à nouveau et réessayer, s'il vous plaît?",
+      "something_went_wrong": "Quelque chose semble avoir mal tourné, veuillez réessayer avec bienveillance."
+    }
+  },
+  "account_details_form": {
+    "main_title": "Votre voyage",
+    "main_sub_title": "Cette information sera affichée sur la couverture de votre album",
+    "trip_name_label": "Nom du voyage",
+    "short_description_label": "Brève description",
+    "next_button": "Suivant",
+    "back_button": "Retour",
+    "skip_button": "Passer",
+    "additional_title": "De plus",
+    "additional_sub_title": "Vous pouvez passer cette étape et ajouter des détails plus tard",
+    "additional_dates_label": "Dates du voyage",
+    "additional_description_label": "Description"
+  },
+  "account_pre_upload_screen": {
+    "main_title": "Ajoutez vos souvenirs",
+    "main_sub_title": "Veuillez sélectionner les photos ou vidéos que vous souhaitez ajouter à votre album",
+    "next_button": "Suivant",
+    "back_button": "Retour",
+    "skip_button": "Passer",
+    "options": {
+      "direct_upload_title": "Télécharger des photos/vidéos",
+      "instagram_upload_title": "Instagram"
+    }
+  },
+  "auth_screen": {
+    "main_title": "Veuillez vous autoriser gentiment",
+    "main_sub_title": "Note: Si vous n'avez pas modifié votre mot de passe lors du processus d'activation, vous pouvez utiliser votre clé de licence",
+    "form": {
+      "password_field_label": "Votre mot de passe",
+      "password_field_placeholder": "Veuillez préciser..."
+    },
+    "buttons": {
+      "back": "Retour à la vue",
+      "sing_in": "Se connecter"
+    },
+    "errors": {
+      "empty_password": "Le mot de passe ne peut être vide. Veuillez préciser votre mot de passe",
+      "incorrect_password": "Mot de passe incorrect. Veuillez réessayer"
+    }
+  }
+}

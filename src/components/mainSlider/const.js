@@ -1,0 +1,91 @@
+const data = [
+  {
+    type: "photo",
+    id: "photo1",
+    originalUrl: "https://fujifilm-x.com/wp-content/uploads/2021/01/gfx100s_sample_02_thum-1.jpg",
+    originalWidth: 600,
+    originalHeight: 500,
+    thumbnails: {
+      160: "https://fujifilm-x.com/wp-content/uploads/2021/01/gfx100s_sample_02_thum-1.jpg",
+      480: "https://fujifilm-x.com/wp-content/uploads/2021/01/gfx100s_sample_02_thum-1.jpg",
+      720: "https://fujifilm-x.com/wp-content/uploads/2021/01/gfx100s_sample_02_thum-1.jpg",
+    },
+    backgroundAudioDuration: 20,
+    title: "Montmartre, Jan, 6, 2022",
+    subTitle: "Welcome to my trip memories about beautiful city I’ve visited",
+  },
+  {
+    type: "photo",
+    id: "photo2",
+    originalUrl: "https://fujifilm-x.com/wp-content/uploads/2021/01/gfx100s_sample_01_thum.jpg",
+    originalWidth: 800,
+    originalHeight: 1140,
+    thumbnails: {
+      160: "https://fujifilm-x.com/wp-content/uploads/2021/01/gfx100s_sample_01_thum.jpg",
+      480: "https://fujifilm-x.com/wp-content/uploads/2021/01/gfx100s_sample_01_thum.jpg",
+      720: "https://fujifilm-x.com/wp-content/uploads/2021/01/gfx100s_sample_01_thum.jpg",
+    },
+    title: "Montmartre, Jan, 6, 2022",
+    subTitle: "Welcome to my trip memories about beautiful city I’ve visited",
+  },
+  {
+    type: "video",
+    id: "video1",
+    originalUrl: "https://www.w3schools.com/html/mov_bbb.mp4",
+    placeholderImage: "/img/7.jpeg",
+    originalWidth: 1200,
+    originalHeight: 720,
+    thumbnails: {
+      160: "https://fujifilm-x.com/wp-content/uploads/2021/01/gfx100s_sample_03_thum.jpg",
+      480: "https://fujifilm-x.com/wp-content/uploads/2021/01/gfx100s_sample_03_thum.jpg",
+      720: "https://fujifilm-x.com/wp-content/uploads/2021/01/gfx100s_sample_03_thum.jpg",
+      1200: "https://fujifilm-x.com/wp-content/uploads/2021/01/gfx100s_sample_03_thum.jpg",
+    },
+    title: "Montmartre, Jan, 6, 2022",
+    subTitle: "Welcome to my trip memories about beautiful city I’ve visited",
+  },
+  {
+    type: "audio",
+    id: "audio1",
+    originalUrl:
+      "http://basicenglishspeaking.com/wp-content/uploads/audio/QA/Q-01-01.mp3",
+    placeholderImage: "/img/3.jpg",
+    duration: 25,
+    title: "Montmartre, Jan, 6, 2022",
+    subTitle: "Welcome to my trip memories about beautiful city I’ve visited",
+  },
+  {
+    type: "photo",
+    id: "photo3",
+    originalUrl: "https://fujifilm-x.com/wp-content/uploads/2021/01/gfx100s_sample_04_thum-1.jpg",
+    originalWidth: 1200,
+    originalHeight: 720,
+    thumbnails: {
+      160: "https://fujifilm-x.com/wp-content/uploads/2021/01/gfx100s_sample_04_thum-1.jpg",
+      480: "https://fujifilm-x.com/wp-content/uploads/2021/01/gfx100s_sample_04_thum-1.jpg",
+      720: "https://fujifilm-x.com/wp-content/uploads/2021/01/gfx100s_sample_04_thum-1.jpg",
+      1200: "https://fujifilm-x.com/wp-content/uploads/2021/01/gfx100s_sample_04_thum-1.jpg",
+    },
+    backgroundAudio: "https://test.com/audio/photo1/bg.mp3",
+    backgroundAudioDuration: 20,
+    title: "Montmartre, Jan, 6, 2022",
+    subTitle: "Welcome to my trip memories about beautiful city I’ve visited",
+  },
+  {
+    type: "photo",
+    id: "photo4",
+    originalUrl: "https://fujifilm-x.com/wp-content/uploads/2021/01/gfx100s_sample_05_thum.jpg",
+    originalWidth: 500,
+    originalHeight: 500,
+    thumbnails: {
+      160: "https://fujifilm-x.com/wp-content/uploads/2021/01/gfx100s_sample_05_thum.jpg",
+      480: "https://fujifilm-x.com/wp-content/uploads/2021/01/gfx100s_sample_05_thum.jpg",
+      720: "https://fujifilm-x.com/wp-content/uploads/2021/01/gfx100s_sample_05_thum.jpg",
+      1200: "https://fujifilm-x.com/wp-content/uploads/2021/01/gfx100s_sample_05_thum.jpg",
+    },
+    title: "Montmartre, Jan, 6, 2022",
+    subTitle: "Welcome to my trip memories about beautiful city I’ve visited",
+  }  
+];
+
+export { data };

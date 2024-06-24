@@ -1,0 +1,28 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 32px;
+}
+.title {
+    width: 100%;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.subTitle {
+    width: 100%;
+    font-weight: 275;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+@media (orientation: landscape) {
+    .wrapper {
+        gap: 10px;
+    }
+}

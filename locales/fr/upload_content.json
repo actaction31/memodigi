@@ -1,0 +1,11 @@
+{
+  "upload_options": {
+    "direct_upload": "Téléchargements",
+    "instagram_upload": "Instagram"
+  },
+  "limit_buttons": {
+    "cancel": "Annuler",
+    "done": "Terminé"
+  },
+  "main_title": "Ajouter une photo / vidéo"
+}

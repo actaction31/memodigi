@@ -1,0 +1,18 @@
+.wrapper {
+
+}
+.paddingWrapper {
+    padding: 2vh 5vw;
+}
+.limits {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (orientation: landscape) {
+
+    .paddingWrapper {
+        padding: 4vh 2vw;
+    }
+}

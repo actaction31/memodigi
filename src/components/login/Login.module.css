@@ -1,0 +1,9 @@
+.wrapper {
+    padding: 10vh 5vw;
+}
+
+@media (orientation: landscape) {
+    .wrapper {
+        padding: 0 0 0 35vw;
+    }
+}

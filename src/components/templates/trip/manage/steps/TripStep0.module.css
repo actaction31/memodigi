@@ -1,0 +1,49 @@
+.wrapper {
+
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.buttonsWrapper {
+    width: 100%;
+    margin-top: 5vh;
+    display: inline-flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.buttonSkipWrapper {
+    width: 100%;
+    margin-top: 1vh;
+    display: inline-flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (orientation: landscape) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .buttonsWrapper {
+        margin-top: unset;
+    }
+    .actions {
+        margin-top: 5vh;
+        display: flex;
+        justify-content: center;
+    }
+    .actions > div {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "locales": ["en", "de", "ua", "fr"],
+  "defaultLocale": "en",
+  "pages": {
+    "*": ["common", "offcanvas", "upload_content"]
+  }
+}

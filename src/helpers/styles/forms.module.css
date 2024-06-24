@@ -1,0 +1,37 @@
+.textarea textarea {
+    font-size: 16px;
+    background-color: #f3eeee;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100% !important;
+    border: 0;
+    outline: none;
+    resize: none;
+}
+.fieldWrapper {
+    background: linear-gradient(to right, #c7782d, #76388d);
+    padding: 2px;
+    border-radius: 5px;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.input label {
+    font-weight: 275;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.input input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 12px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #3B3B3B;
+}

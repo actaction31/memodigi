@@ -1,0 +1,35 @@
+.wrapper {
+    padding: 2vh 5vw;
+    display: grid;
+    grid-template-rows: 30px auto;
+}
+.formSection {
+    margin-top: 10vh;
+}
+.actions {
+    margin-top: 3vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.bottomImage {
+    position: absolute;
+    bottom: 1vh;
+    left: 0;
+}
+.error {
+    color: rgb(255,160,122);
+    font-size: 12px;
+    margin-top: 1vh;
+}
+
+@media (orientation: landscape) {
+    .formSection {
+        /*grid-auto-rows: unset;*/
+        /*grid-template-rows: unset;*/
+        /*grid-template-columns: 100px 1fr;*/
+    }
+    .bottomImage {
+        display: none;
+    }
+}

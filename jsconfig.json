@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/src/*": ["src/*"],
+
+      "@/actions/*": ["src/actions/*"],
+      "@/actions": ["src/actions"],
+
+      "@/components/*": ["src/components/*"],
+      "@/components": ["src/components"],
+
+      "@/constants/*": ["src/constants/*"],
+      "@/constants": ["src/constants"],
+
+      "@/helpers/*": ["src/helpers/*"],
+      "@/helpers": ["src/helpers"],
+
+      "@/hooks/*": ["src/hooks/*"],
+      "@/hooks": ["src/hooks"],
+
+      "@/layouts/*": ["src/layouts/*"],
+      "@/layouts": ["src/layouts"],
+
+      "@/public/*": ["public/*"],
+
+      "@/styles/*": ["styles/*"]
+    }
+  },
+  "include": ["."]
+}

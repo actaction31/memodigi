@@ -1,0 +1,46 @@
+.wrapper {
+    background-color: #FFFFFF;
+    margin-bottom: 100px;
+}
+.galleryLinkButton {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.contentImage img {
+    width: 100%;
+}
+.map {
+    padding: 10px;
+}
+.map img {
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    -webkit-box-shadow: 1px 3px 15px 0px rgba(0,0,0,0.21);
+    -moz-box-shadow: 1px 3px 15px 0px rgba(0,0,0,0.21);
+    box-shadow: 1px 3px 15px 0px rgba(0,0,0,0.21);
+}
+.titleMap {
+    font-size: 24px;
+    font-weight: 400;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+}
+.info {
+    padding: 15px;
+}
+.cityName {
+    font-size: 22px;
+}
+.currentWeatherBlock {
+    margin-top: 20px;
+}
+.weatherTitle {
+    font-size: 20px;
+}
+.weather img {
+    width: 100%;
+}

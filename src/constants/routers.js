@@ -1,0 +1,17 @@
+export const HOME_PATH =                   '/';
+export const LOGIN_PATH =                   '/login';
+export const ERROR_404 =                    '/404';
+export const ERROR_500 =                    '/500';
+export const VIEW_CONTENT_PATH =            '/account/[accountUniqCode]';
+export const ACCOUNT_SECRET_CODE_PATH =     '/account/[accountUniqCode]/auth';
+export const ACCOUNT_CONNECT_EXT_ACCOUNT_PATH = '/account/[accountUniqCode]/connect-ext-account';
+export const ALBUM_VIEW_PATH =              '/account/[accountUniqCode]/view';
+export const MANAGE_CONTENT_PATH =          '/manage/account/[accountUniqCode]';
+export const AUTH_TO_MANAGE_CONTENT_PATH =  '/manage/account/[accountUniqCode]/auth';
+export const CONTENT_PATH =                 '/account/content/[contentUniqCode]';
+export const UPLOAD_CONTENT_PATH =          '/manage/account/[accountUniqCode]/upload';
+export const DOC_TERMS_AND_CONDITIONS_PATH = '/docs/terms-and-conditions';
+export const DOC_COOKIES_PRIVACY_PATH =     '/docs/cookies-policy';
+export const DOC_PRIVACY_PRIVACY_PATH =     '/docs/privacy-policy';
+export const DOC_FAQ_PATH =                 '/docs/faq';
+export const UPLOAD_PREVIEW_PATH =          '/manage/account/[accountUniqCode]/upload-preview';

@@ -1,0 +1,11 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 4vw auto 5vw;
+    align-items: center;
+}
+.titleBlock {
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+}

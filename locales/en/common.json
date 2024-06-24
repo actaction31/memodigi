@@ -1,0 +1,66 @@
+{
+  "new_account_welcome_message": "welcome to",
+  "create_your_album": "Create your album",
+  "share_your_greatest_memories": "Share your greatest memories!",
+  "account_activation": {
+    "title_thank_you": "Thank you!",
+    "title_nice_to_meet_you": "Nice to meet you!",
+    "require_activation_message": "<0>Your account requires activation.</0><1></1>You may gently use the license key, which can be found on your lovely souvenir.",
+    "password_was_set": "You can now delight in using your account, effortlessly save and browse your cherished memories at any time you wish.",
+    "set_password_message": "You've successfully activated your account. Please kindly devise and jot down a password that you can use to add your cherished memories.<1></1> If you prefer, <0>you may skip this step and use your license key</0>, which is set as the default password for your account.",
+    "specify_your_password": "Please specify your password",
+    "provide_license_key": "Please provide the license key",
+    "buttons": {
+      "continue": "Gracefully initiate",
+      "set_my_password": "Set my password",
+      "skip": "Skip",
+      "submit": "Submit"
+    },
+    "errors": {
+      "empty_license_key": "The license key can't be empty. Would you mind checking it once more and attempting again, please?",
+      "not_valid_license_key": "It seems the license key may not be valid. Would you kindly verify it and give it another try?",
+      "empty_password": "The password can't be empty. Would you mind checking it once more and attempting again, please?",
+      "something_went_wrong": "Something seems to have gone awry, please kindly give it another try."
+    }
+  },
+  "account_details_form": {
+    "main_title": "Your trip",
+    "main_sub_title": "This information will be shown on your album cover",
+    "trip_name_label": "Trip name",
+    "short_description_label": "Short description",
+    "next_button": "Next",
+    "back_button": "Back",
+    "skip_button": "Skip",
+    "additional_title": "Additionally",
+    "additional_sub_title": "You can skip this step and add details later)",
+    "additional_dates_label": "Trip dates",
+    "additional_description_label": "Description"
+  },
+  "account_pre_upload_screen": {
+    "main_title": "Add your memories",
+    "main_sub_title": "Please select the photos or videos you would like to add to your album",
+    "next_button": "Next",
+    "back_button": "Back",
+    "skip_button": "Skip",
+    "options": {
+      "direct_upload_title": "Upload photos/video",
+      "instagram_upload_title": "Instagram"
+    }
+  },
+  "auth_screen": {
+    "main_title": "Please kindly authorize yourself",
+    "main_sub_title": "Note: If you did not change your password during activation process you may use your license key",
+    "form": {
+      "password_field_label": "Your password",
+      "password_field_placeholder": "Please specify..."
+    },
+    "buttons": {
+      "back": "Back to view",
+      "sing_in": "Sign in"
+    },
+    "errors": {
+      "empty_password": "Password can't be empty. Please specify your password",
+      "incorrect_password": "Incorrect password. Please kindly try again"
+    }
+  }
+}

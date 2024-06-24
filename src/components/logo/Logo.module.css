@@ -1,0 +1,21 @@
+.logo {
+    z-index: 100000;
+}
+.topIcons {
+    position: fixed;
+    top: 50px;
+    right: 20px;
+}
+.topIcons ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.topIcons li {
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,115 @@
+.info {
+    background-color: #FFFFFF;
+}
+.infoTitle {
+    font-family: MD Primer Bold,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
+    font-style: normal;
+    font-size: clamp(1rem, 1rem + 0.8vw, 2rem);
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 0 2px 2px rgb(0 0 0 / 50%);
+    margin-bottom: 2vh;
+}
+.content {
+    background-color: #FFFFFF;
+}
+.content :global(.image-gallery-thumbnail-image) {
+    height: 100px;
+    object-fit: cover;
+}
+.content :global(.image-gallery-thumbnail.active),
+.content :global(.image-gallery-thumbnail:focus) {
+    background: linear-gradient(to right, #c7782d, #76388d);
+    padding: 2px;
+    border-radius: 5px;
+    border: 0;
+    padding-bottom: 5px;
+}
+.content :global(.image-gallery-thumbnail.active) img,
+.content :global(.image-gallery-thumbnail:focus) img {
+    border-radius: 5px;
+}
+.imageGalleryLeftNav {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #0070f3;
+    z-index: 10;
+}
+.imageGalleryRightNav {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #0070f3;
+    z-index: 10;
+}
+.lightboxRoot {
+    background-color: var(--main-bg);
+}
+
+
+.testButton {
+    position: fixed;
+    bottom: 5vh;
+    width: 100vw;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100003 !important;
+}
+.testButtonButton {
+    font-weight: 400;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+    border-radius: 45px;
+    width: 80%;
+    height: 66px;
+}
+.album {
+    position: relative;
+    margin-bottom: 80px;
+}
+.cityNameBlock {
+    font-size: 1.7em;
+    font-weight: bold;
+    margin-bottom: 2vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #FFFFFF;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    text-shadow: 0px 0px 3px rgba(0,0,0,0.6);
+}
+.cityName {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 45px;
+}
+.countryName {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+}
+.albumWithCity {
+    position: relative;
+}
+.galleryLinkButton {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}

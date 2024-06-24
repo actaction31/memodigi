@@ -1,0 +1,42 @@
+.wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 70px;
+}
+.step:first-child {
+    justify-self: flex-start;
+}
+.step:last-child {
+    justify-self: flex-end;
+}
+.step {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 70px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.active {
+    background: linear-gradient(133.3deg, #743B8B 11.35%, #C77733 171.96%);
+    border: 11px solid rgba(255, 255, 255, 0.06);
+    background-clip: padding-box;
+}
+.line {
+    flex: 0 0 48px;
+    height: 2px;
+    border-bottom: 2px dashed rgba(255, 255, 255, 0.5);
+}
+
+@media (orientation: landscape) {
+    .wrapper {
+        flex-direction: column;
+        max-height: unset;
+    }
+    .line {
+        flex: 0 0 48px;
+        width: 2px;
+        border-left: 2px dashed rgba(255, 255, 255, 0.5);
+    }
+}
